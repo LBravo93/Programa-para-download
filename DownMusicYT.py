@@ -21,7 +21,7 @@ while validador == True:
     resp = int(input(azul('Digite sua opção: ')))
 
     if resp == 1 or resp == 2:
-        validador = False
+        validador = True
     else:
         print(vermelho(
             'Resposta inválida!!!\nDigite apenas números inteiros válidos [1 ou 2].'))
@@ -55,6 +55,8 @@ while validador == True:
         print(verde('Pronto...'))
         print(verde(f'Seu MP3 está disponível em {amarelo(local)}'))
         print()
+
+        validador = True
     elif resp == 2:
         print(vermelho('Programa finalizado!!!'))
         validador = False
