@@ -25,6 +25,7 @@ while validador == True:
     else:
         print(vermelho(
             'Resposta inválida!!!\nDigite apenas números inteiros válidos [1 ou 2].'))
+        print()
 
     sleep(0.5)
 
